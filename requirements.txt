@@ -1,0 +1,5 @@
+eventlet
+pymysql
+redis
+hiredis
+gunicorn

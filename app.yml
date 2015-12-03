@@ -1,0 +1,5 @@
+language: go
+script:
+    - mkdir -p $GOPATH/src
+    - cp -R /vagrant/libs/* $GOPATH/src/
+    - ECHO_ENV=PRODUCTION go run main.go
